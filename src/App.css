@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+input {
+  width: 400px;
+  padding: 6px 12px;
+  display: block;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+input:focus {
+  border: 2px solid blueviolet;
+}
+.error {
+  color: red;
+  font-size: small;
+}
+.btn {
+  padding: 5px 15px;
+  margin-top: 1rem;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: inset 2px 2px 6px rgb(72, 72, 72);
+}
+.RadioControl {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 5rem;
+}
+
+.RadioControl > input {
+margin: 1rem 0 1rem 1rem;
+}

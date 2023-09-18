@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id" :  1,
+      "name": "cia",
+      "email": "svsh@gmail.com",
+      "password": "123456",
+      "PasswordComformation": "123456",
+      "phoneNumber": "09363443653",
+      "gender": "0",
+      "nationality" : "IR",
+      "intrests" : []
+    }
+  ]
+}
